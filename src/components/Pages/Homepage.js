@@ -28,7 +28,7 @@ const Homepage = () => {
           <div className="homepage-item active">
             <img 
                 src = {CRUDImage}
-                style="width:50%; height:100%;"
+                //style="width:50%; height:100%;"
             ></img>
           </div>
         </div>
