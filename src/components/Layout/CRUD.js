@@ -1,6 +1,6 @@
 import React from 'react'
 import Carosol from '../Pages/Carosol'
-const Carosol = ()=> {
+const Crud = ()=> {
   return (
     <div>
         <Carosol />
@@ -8,4 +8,4 @@ const Carosol = ()=> {
   )
 }
 
-export default Carosol
+export default Crud
