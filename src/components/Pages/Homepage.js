@@ -1,4 +1,5 @@
 import React from "react";
+import CRUDImage from './CRUD.png';
 
 const Homepage = () => {
   return (
@@ -25,7 +26,7 @@ const Homepage = () => {
 
         <div className="homepage-inner">
           <div className="homepage-item active">
-            <img src = "/CRUD.png"></img>
+            <img src = {CRUDImage}></img>
           </div>
         </div>
 

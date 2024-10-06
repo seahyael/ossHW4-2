@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 const Carasol = () => {
   useEffect(() => {
     const interval = setInterval(() => {
-      const nextButton = document.querySelector(".homepage-control-next");
+      const nextButton = document.querySelector(".carosol-control-next");
       nextButton.click();
     }, 3000); 
 
