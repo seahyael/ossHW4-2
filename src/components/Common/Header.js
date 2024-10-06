@@ -6,7 +6,7 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link to="/CRUD" className="navbar-brand" href="#">
+          <Link to="/" className="navbar-brand" href="#">
             <span className="navbar-text">React CRUD</span>
           </Link>
           <button
@@ -20,7 +20,7 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="mynavbar">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/CRUD">
                   Home
                 </Link>
               </li>

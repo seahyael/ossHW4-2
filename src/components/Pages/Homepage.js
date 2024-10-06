@@ -26,7 +26,7 @@ const Homepage = () => {
         <div className="homepage-inner">
           <div className="homepage-item active">
             <img
-              src={'https://t1.daumcdn.net/news/202410/05/thecolumnist/20241005040002264jirx.jpg'}
+              src={'./CRUD.webp'}
               alt="Los Angeles"
               className="d-block"
             />
