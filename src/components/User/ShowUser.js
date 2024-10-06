@@ -5,8 +5,7 @@ import Loader from "../Common/Loader";
 
 const ShowUser = () => {
   const showUserApi = "https://66ff38142b9aac9c997e8ec4.mockapi.io/api/oss/users";
-  //https://66ff38142b9aac9c997e8ec4.mockapi.io/api/oss/users
-
+  
   const [user, setUser] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
