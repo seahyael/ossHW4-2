@@ -6,7 +6,7 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link to="/" className="navbar-brand" href="#">
+          <Link to="/CRUD" className="navbar-brand" href="#">
             <span className="navbar-text">React CRUD</span>
           </Link>
           <button

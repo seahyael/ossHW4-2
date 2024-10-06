@@ -31,20 +31,6 @@ const Homepage = () => {
               className="d-block"
             />
           </div>
-          <div className="homepage-item">
-            <img
-              src={'https://t1.daumcdn.net/news/202410/05/thecolumnist/20241005040002264jirx.jpg'}
-              alt="Chicago"
-              className="d-block"
-            />
-          </div>
-          <div className="homepage-item">
-            <img
-              src={'https://t1.daumcdn.net/news/202410/05/thecolumnist/20241005040002264jirx.jpg'}
-              alt="New York"
-              className="d-block"
-            />
-          </div>
         </div>
 
         <button

@@ -6,6 +6,7 @@ import EditUser from "./components/User/EditUser";
 import User from "./components/User/User";
 import Header from "./components/Common/Header";
 import Home from "./components/Layout/Home";
+import Homepage from "./components/Pages/Homepage";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <Routes>
           
             <Route path="/" element={<Home />} />
+            <Route path="/CRUD" element={<CRUD />} />
             <Route path="/edit-user/:id" element={<EditUser />} />
             <Route path="/user/:id" element={<User />} />
             <Route path="/create-user" element={<CreateUser />} />
