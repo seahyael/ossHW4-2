@@ -6,7 +6,7 @@ import EditUser from "./components/User/EditUser";
 import User from "./components/User/User";
 import Header from "./components/Common/Header";
 import Home from "./components/Layout/Home";
-import Homepage from "./components/Pages/Homepage";
+import CRUD from "./components/Layout/CRUD";
 function App() {
   return (
     <div className="App">
