@@ -26,7 +26,7 @@ const Homepage = () => {
         <div className="homepage-inner">
           <div className="homepage-item active">
             <img
-              src={'./CRUD.webp'}
+              src="./CRUD.png"
               alt="Los Angeles"
               className="d-block"
             />
