@@ -10,7 +10,9 @@ const CreateUser = () => {
     const [user, setUser] = useState({
         name: "",
         email: "",
-        phone: ""
+        phone: "",
+        stunum: "",
+        age: ""
     })
 
     const handelInput = (event) => {
@@ -35,7 +37,7 @@ const CreateUser = () => {
 
             if (response.ok) {
                 console.log('Form submitted successfully!');
-                setUser({name: "",email: "",phone: ""})
+                setUser({name: "",email: "",phone: "",stunum: "",age:""})
                 navigate('/show-user');
             } else {
                 console.error('Form submission failed!');
@@ -67,6 +69,14 @@ const CreateUser = () => {
                 <div className="mb-3">
                     <label for="pwd" className="form-label">Phone</label>
                     <input type="text" className="form-control" id="phone" name="phone" value={user.phone} onChange={handelInput} />
+                </div>
+                <div className="mb-3">
+                    <label for="stunum" className="form-label">Student Number</label>
+                    <input type="text" className="form-control" id="stunum" name="stunum" value={user.stunum} onChange={handelInput} />
+                </div>
+                <div className="mb-3">
+                    <label for="age" className="form-label">Age</label>
+                    <input type="text" className="form-control" id="age" name="age" value={user.age} onChange={handelInput} />
                 </div>
                 <button type="submit" className="btn btn-primary submit-btn">Submit</button>
             </form>
