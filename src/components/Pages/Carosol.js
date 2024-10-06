@@ -1,6 +1,16 @@
 import React from "react";
 
+
 const Carasol = () => {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const nextButton = document.querySelector(".homepage-control-next");
+      nextButton.click();
+    }, 3000); 
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <div id="demo" className="carousel slide" data-bs-ride="carousel">
