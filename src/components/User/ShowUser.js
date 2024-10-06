@@ -53,7 +53,7 @@ const ShowUser = () => {
         <table className="table table-striped">
           <thead>
             <tr>
-              <th>ID</th>
+              <th>INDEX</th>
               <th>Name</th>
               <th>Email</th>
               <th>Phone</th>

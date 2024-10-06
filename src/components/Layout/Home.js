@@ -1,9 +1,9 @@
 import React from 'react'
-import Carasol from '../Pages/Carosol'
+import Homepage from '../Pages/Homepage'
 const Home = ()=> {
   return (
     <div>
-        <Carasol />
+        <Homepage />
     </div>
   )
 }
