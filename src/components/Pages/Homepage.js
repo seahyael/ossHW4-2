@@ -1,6 +1,6 @@
 import React from "react";
 
-const Carasol = () => {
+const Homepage = () => {
   return (
     <>
       <div id="demo" className="homepage slide" data-bs-ride="homepage">
