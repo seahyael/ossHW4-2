@@ -26,7 +26,10 @@ const Homepage = () => {
 
         <div className="homepage-inner">
           <div className="homepage-item active">
-            <img src = {CRUDImage}></img>
+            <img 
+                src = {CRUDImage}
+                style="width:50%; height:100%;"
+            ></img>
           </div>
         </div>
 
